@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Gentium+Basic&display=swap');
+.Start{
+    font-family: 'Gentium Basic', serif;
+font-size: 60px;
+margin-top: 50px;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.322);
+    background-image: url("background.jpg");
+    
+}
+#red{
+    border-bottom-left-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    border-style: solid;
+    border-width: 5px;
+}
+#yellow{
+    border-bottom-right-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-style: solid;
+    border-width: 5px;
+}
+#green{
+    border-top-right-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color:green;
+
+    border-style: solid;
+    border-width: 5px;
+}
+#blue{
+    border-top-left-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    
+    border-style: solid;
+    border-width: 5px;
+}
+.row1{margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+}
+#centre{ width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    cursor: pointer;
+    top:-320px ;
+    border-style: solid;
+    border-width: 5px;
+    color:white;
+    margin:auto;
+    font;
+    font-family: 'Cutive', serif;
+font-family: 'Gentium Basic', serif;
+font-family: 'Gentium Basic', serif;
+font-size: 30px;
+}
+#red:hover{
+    border-color:rgb(170, 168, 164);
+    cursor: pointer;
+    
+}
+#blue:hover{
+    border-color:rgb(170, 168, 164);
+    cursor: pointer;
+
+    
+}
+#yellow:hover{
+    border-color:rgb(170, 168, 164);
+    cursor: pointer;
+    
+}
+#green:hover{
+    border-color:rgb(170, 168, 164);
+    cursor: pointer;
+    
+}
+#gamestart{display: flex;
+    cursor: pointer;
+    color: white;
+    top:-320px ;
+    margin:auto;
+    font-size: 30px;
+    margin:auto
+     width: 50px;
+    height:50px;
+}
